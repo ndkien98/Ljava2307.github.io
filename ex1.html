@@ -1,0 +1,61 @@
+<!-- Tạo trang thông tin cá nhân
+Yêu cầu: Tạo một trang thông tin cá nhân với các phần tử HTML cơ bản như tiêu đề, đoạn văn bản, hình ảnh, danh sách, bảng, biểu mẫu và liên kết. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thông tin cá nhân</title>
+</head>
+<body>
+  <h1>Thông tin cá nhân</h1>
+  
+  <img src="../img/avatar.jpg" alt="Ảnh đại diện">
+  
+  <h2>Giới thiệu</h2>
+  <p>Tôi là <strong> Nguyễn Đắc Kiên </strong> và tôi đam mê lập trình web.</p>
+  
+  <h2>Sở thích</h2>
+  <ul>
+    <li>Đọc sách</li>
+    <li>Xem phim</li>
+    <li>Chơi game</li>
+  </ul>
+  
+  <h2>Thông tin liên hệ</h2>
+  <table>
+    <tr>
+      <td>Tên:</td>
+      <td>Nguyễn Đắc Kiên</td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td>kiennd25@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Số điện thoại:</td>
+      <td>0925334772</td>
+    </tr>
+  </table>
+  
+  <h2>Gửi tin nhắn</h2>
+  <form>
+    <label for="name">Họ và tên:</label><br>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Tin nhắn:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    
+    <button type="submit">Gửi tin nhắn</button>
+  </form>
+  
+  <h2>Liên kết</h2>
+  <ul>
+    <li><a href="https://Facebook.com">Facebook</a></li>
+    <li><a href="https://example.com/about">Github</a></li>
+    <li><a href="https://example.com/contact">Zalo</a></li>
+  </ul>
+</body>
+</html>
